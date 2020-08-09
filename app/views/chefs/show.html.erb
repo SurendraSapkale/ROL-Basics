@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Profile:</strong>
+  <%= @chef.profile_id %>
+</p>
+
+<%= link_to 'Edit', edit_chef_path(@chef) %> |
+<%= link_to 'Back', chefs_path %>

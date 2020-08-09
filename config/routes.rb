@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :chefs
   resources :profiles
   devise_for :users
   root 'home#page'
