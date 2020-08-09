@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @dish.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dish.description %>
+</p>
+
+<p>
+  <strong>Cuisine:</strong>
+  <%= @dish.cuisine %>
+</p>
+
+<p>
+  <strong>Special dietery details:</strong>
+  <%= @dish.special_dietery_details %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @dish.price %>
+</p>
+
+<p>
+  <strong>Street details:</strong>
+  <%= @dish.street_details %>
+</p>
+
+<p>
+  <strong>Suburb:</strong>
+  <%= @dish.suburb %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @dish.state %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @dish.country %>
+</p>
+
+<p>
+  <strong>Postcode:</strong>
+  <%= @dish.postcode %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @dish.picture %>
+</p>
+
+<p>
+  <strong>Chef:</strong>
+  <%= @dish.chef_id %>
+</p>
+
+<%= link_to 'Edit', edit_dish_path(@dish) %> |
+<%= link_to 'Back', dishes_path %>
